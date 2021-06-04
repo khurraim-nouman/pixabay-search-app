@@ -1,0 +1,52 @@
+.imageCard {
+    box-shadow: 5px 5px #faf6f6;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  .imageCard img {
+    height: 300px;
+    width: 100%;
+  }
+  
+  .imageCard h3 {
+    color: purple;
+    margin: 13px 25px;
+    font-size: 22px;;
+  }
+  
+  .imageCard ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 10px 25px;
+    padding-bottom: 7px;
+  }
+  
+  .tagsDiv {
+    padding: 10px 20px;
+  }
+  
+  .tag {
+    display: inline-block;
+    background: #f4f4f4;
+    color: #333;
+    font-weight: 500;
+    padding: 7px 10px;
+    margin-right: 12px;
+    border-radius: 7px;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .imageCard {
+      display: block;
+      margin: auto;
+      width: 80%;
+    }
+  
+    .imageCard img {
+      height: 200px;
+    }
+  }
